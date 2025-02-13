@@ -12,19 +12,19 @@ import { Button } from "@/components/ui/button";
 const socials = [
     {
         name: "Github",
-        link: "https://github.com/MohamedDanis",
+        link: "https://github.com/mhdnishadc",
         icon: <FaGithub className="size-4" />
     },
     {
         name: "LinkedIn",
-        link: "https://www.linkedin.com/in/mohamed-danis",
+        link: "https://www.linkedin.com/in/muhammed-nishadc",
         icon: <FaLinkedin className="size-4" />
     },
-    {
-        name: "X (Twitter)",
-        link: "https://x.com/MohamedDan8411",
-        icon: <FaXTwitter className="size-4" />
-    }
+    // {
+    //     name: "X (Twitter)",
+    //     link: "",
+    //     icon: <FaXTwitter className="size-4" />
+    // }
     // TODO: Add more socials here
 ]
 
@@ -39,26 +39,26 @@ export const Profile = () => {
                             height={150}
                             quality={100}
                             unoptimized
-                            src="/profilepic.jpg"
+                            src="/profile update.jpg"
                             alt="Profile Picture"
                             className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                         />
                         <div className="flex flex-col items-start justify-center">
-                            <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Mohamed Danis</h1>
+                            <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Muhammed Nishad</h1>
                             <p className="text-sm md:text-base text-muted-foreground">
                                 Fullstack Developer
                             </p>
                         </div>
                     </div>
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a fullstack developer with a passion for building products that solve real-world problems.
+                    I am a full-stack developer with a passion for building software products that solve real-world problems.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume link */}
                         {/* or link to schedule a meeting using Calendly or Cal*/}
                         <Link
                             target="_blank"
-                            href="https://drive.google.com/file/d/1H0n4EVeBQSqKENeXNusispzdrbdtaKs9/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1RD6YI6RM5Hi1yencRKijOFINBX-o1Ehl/view?usp=sharing"
                             className="font-semibold"
                         >
                             CONTACT ME

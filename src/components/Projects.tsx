@@ -7,17 +7,18 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "OPNHUB",
-        description: "A web application built with Next.js and TailwindCSS, used to discover open source projects.",
-        tech: "NextJS",
-        link: "https://opnhub.vercel.app/",
+        title: "Blog",
+        description: "A blog application built with React.js and Node.js, enabling students to explore blogs categorized by programming languages.",
+        tech: "React",
+        link: "https://github.com/mhdnishadc",
     },
     {
-        title: "CareBi",
-        description: "Designed and developed a static site for data analytics firm",
-        tech: "React",
-        link: "https://www.carebi.in/",
+        title: "Project fair",
+        description: "A web app for developers to showcase projects with GitHub links, featuring search and filter options.",
+        tech: "NodeJs",
+        link: "https://github.com/mhdnishadc/projectfair",
     },
+    
 ]
 
 const techColors = {
@@ -25,6 +26,7 @@ const techColors = {
     "NextJS": "bg-green-500",
     "Vue.js": "bg-purple-500",
     "Python": "bg-yellow-500",
+    "NodeJs": "bg-green-500",
 }
 
 export const Projects = () => {

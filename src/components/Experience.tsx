@@ -8,16 +8,16 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
   {
-    role: "Full-Stack Developer", // TODO: Replace with actual role
-    company: "Tefora Software Solutions", // TODO: Replace with actual company name
-    logo: "/tefora.png", // TODO: Replace with actual logo
-    duration: "2023 - Present",
+    role: "Full-Stack Developer Trainee", // TODO: Replace with actual role
+    company: "Luminar Technolab", // TODO: Replace with actual company name
+    logo: "/luminar.jpg", // TODO: Replace with actual logo
+    duration: " Nov 2023 - July 2024",
     description:
-      "Designed and developed an Indoor Navigation Progressive WebApp for a Hospital, which is a milestone project for the company. Delivered a static website for a Dubai-based pharmacy,finishing the project in 10 hours. Led a team of 2 in developing a full-stack content management system (CMS) for a school website using Node.js and Next.js.Managed frontend and backend development through efficient code management and team coordination",
-    link: "https://tefora.in/",
+      "Built applications using the MERN stack, implementing real-time updates and securing logins with JSON Web Tokens. Utilized both relational and NoSQL databases, specifically MongoDB to ensure efficient data storage and scalability. Leveraged Visual Studio Code for coding and application visualization, enhancing the development process. Managed code changes and team collaboration using Git, optimizing workflows and increasing deployment frequency.",
+    link: "https://www.luminartechnolab.com/",
     images: [
-        '/paatha.png',
-        '/nct.png',
+        '/login.png',
+        '/home.png',
     ],
   },
 ];
