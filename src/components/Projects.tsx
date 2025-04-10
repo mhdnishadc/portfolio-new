@@ -7,6 +7,18 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
+        title: "Next Hire",
+        description: "AI mock interview tool tailoring Q&A to roles and experience, simplifying prep and evaluation.",
+        tech: "NextJS", 
+        link: "https://next-hire-eight.vercel.app/",
+    },
+    {
+        title: "Leave Flow",
+        description: "Built an intelligent system to automate leave requests and approvals, streamlining leave tracking for managers.",
+        tech: "React",
+        link: "https://github.com/mhdnishadc/Leaveflow",
+    },
+    {
         title: "Blog",
         description: "A blog application built with React.js and Node.js, enabling students to explore blogs categorized by programming languages.",
         tech: "React",
